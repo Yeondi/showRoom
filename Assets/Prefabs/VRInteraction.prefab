@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1387495424709409183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387495424709409176}
+  - component: {fileID: 1387495424709409177}
+  m_Layer: 0
+  m_Name: VRInteraction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387495424709409176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387495424709409183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1387495424709409177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387495424709409183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d41eede2072ba4aa0965620eaba99c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcome: {fileID: 0}
+  selectTourMode: {fileID: 0}
+  selfTourMode_Guide: {fileID: 0}
+  AutoTourMode: {fileID: 0}
+  Exit_Guide: {fileID: 0}
+  Switch_Guide: {fileID: 0}
+  remote: {fileID: 0}
+  quickMenu: {fileID: 0}
+  currentState: 99
+  remote_ZoomIn: {fileID: 0}
+  remote_ZoomOut: {fileID: 0}
+  btn_Home: {fileID: 0}
+  btn_Leave: {fileID: 0}
+  btn_Info: {fileID: 0}
+  btn_Switch: {fileID: 0}
+  ray_Home: {fileID: 0}
+  ray_Leave: {fileID: 0}
+  ray_Info: {fileID: 0}
+  ray_Switch: {fileID: 0}
